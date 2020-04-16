@@ -232,8 +232,8 @@ body {
 
 .rewiews:after {
     content: "";
-    display: block;
     width: 100%;
+    display: block;
     clear: both;
 }
 
@@ -566,9 +566,103 @@ body {
 .contacts-links-pic {
     margin: 0 0 0 0;
     padding: 0;
+    min-height: 55px;
 }
 
-.contacts-links-pic-img {}
+.contacts-links-pic-img-1 {
+    float: left;
+    display: block;
+    margin: 0 5px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background-image: url('../img/sprite.png');
+    background-position: -15px -14px;
+}
+
+.contacts-links-pic-img-2 {
+    float: left;
+    display: block;
+    margin: 0 5px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background-image: url('../img/sprite.png');
+    background-position: -348px -14px;
+}
+
+.contacts-links-pic-img-3 {
+    float: left;
+    display: block;
+    margin: 0 5px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background-image: url('../img/sprite.png');
+    background-position: -263px -14px;
+}
+
+.contacts-links-pic-img-4 {
+    float: left;
+    display: block;
+    margin: 0 5px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background-image: url('../img/sprite.png');
+    background-position: -682px -14px;
+}
+
+.contacts-links-pic-img-5 {
+    float: left;
+    display: block;
+    margin: 0 5px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background-image: url('../img/sprite.png');
+    background-position: -432px -14px;
+}
+
+.contacts-links-pic-img-1:hover {
+    background-position: -15px -98px;
+}
+
+.contacts-links-pic-img-2:hover {
+    background-position: -348px -98px;
+}
+
+.contacts-links-pic-img-3:hover {
+    background-position: -263px -98px;
+}
+
+.contacts-links-pic-img-4:hover {
+    background-position: -682px -98px;
+}
+
+.contacts-links-pic-img-5:hover {
+    background-position: -432px -98px;
+}
+
+.contacts-links-pic-img-1:active {
+    background-position: -15px -181px;
+}
+
+.contacts-links-pic-img-2:active {
+    background-position: -348px -181px;
+}
+
+.contacts-links-pic-img-3:active {
+    background-position: -263px -181px;
+}
+
+.contacts-links-pic-img-4:active {
+    background-position: -682px -181px;
+}
+
+.contacts-links-pic-img-5:active {
+    background-position: -432px -181px;
+}
 
 .copyright {
     width: 100%;
